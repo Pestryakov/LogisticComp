@@ -1,0 +1,135 @@
+.intro {
+    margin-bottom: 20px;
+    height: 630px;
+    background: url('/img/intro-bg.jpg') center (center/cover) no-repeat;
+    &__inner {
+        height: 600px;
+        display: flex;
+        align-items:flex-end;
+        justify-content: space-between;
+    }
+    &__text {
+        text-align: right;
+        margin: 0 40px 60px 0;
+    }
+    &__countries {
+        color: #FFFFFF;
+        font-size: 15px;
+    }
+    &__title {
+        position: relative;
+        margin: 0;
+        font-size: 110px;
+        color: rgba(255, 255, 255, 0.8);
+        line-height: 100px;
+        font-weight: 700;
+        font-family: 'Lato', sans-serif;
+        &-amp {
+            right: 0;
+            bottom: 50px;
+            position: absolute;
+            font-size: 170px;
+            font-weight: 900;
+            color: rgba(255, 255, 255, 0.2);
+        }
+    }
+}
+
+.request-form {
+    width: 100%;
+    max-width: 400px;
+    background-color: #004AF2;
+    border-radius: 5px;
+    overflow: hidden;
+    &__header {
+        padding: 20px 30px;
+        color: #033FC9;
+    }
+    &__title {
+        font-family: 'Lato' sans-serif;
+        font-size: 30px;
+        font-weight: 900;
+        color: #fff;
+    }
+    &__text {
+        font-size: 15px;
+        line-height: 17px;
+        color: #fff;
+    }
+    &__content {
+        padding: 30px;
+    }
+}
+
+.request-form--intro {
+    position: relative;
+    bottom: -50px;
+}
+
+.form {
+    &__group {
+        margin-bottom: 25px;
+    }
+}
+
+.input {
+    display: block;
+    width: 100%;
+    padding-bottom: 12px;
+    padding-left: 50px;
+
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,0.25);
+
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+
+    transition: border-bottom-color .2s linear;
+}
+
+.input::placeholder {
+    color: #fff;
+}
+
+.input:focus {
+    outline: none;
+    border-bottom-color: #fff;
+}
+
+.input--user {
+    background: url('/img/user-icon.svg') left 15px top 5px  no-repeat;
+}
+
+.input--phone {
+    background: url('/img/phone-icon.svg') left 15px top 5px  no-repeat;
+}
+
+.input--email {
+    background: url('/img/mail-icon.svg') left 15px top 5px  no-repeat;
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 11px 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    background: #333;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn--orange {
+    background: linear-gradient(to right, #FF903E, #FF2C2C);
+}
+
+.btn--block {
+    display: block;
+    width: 100%;
+}

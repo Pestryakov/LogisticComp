@@ -1,0 +1,40 @@
+.services {
+    padding: 60px 0;
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 25px 0;
+
+        background-color: #fff;
+        border-radius: 5px;
+
+        box-shadow: 0 5px 30px rgba(0,0,0, 0.2);
+    }
+    &__item {
+        width: 25%;
+        padding: 0 25px;
+        margin-bottom: 30px;
+    }
+    &__title {
+        font-size: 24px;
+        color: #2C2C2C;
+        font-weight: 900;
+        font-family: 'Lato', sans-serif;
+        line-height: 29px;
+        margin-bottom: 20px;
+    }
+    &__text {
+        color: #585858;
+        font-size: 15px;
+        line-height: 21px;
+        margin-bottom: 20px;
+    }
+    &__link {
+        color: #004AF2;
+        font-size: 15px;
+        text-decoration: none;
+        :hover {
+            color: #FF3E2F;
+        }
+    }    
+}
