@@ -112,8 +112,8 @@
 
 .btn {
     display: inline-block;
-    vertical-align: top;
-    padding: 11px 20px;
+    vertical-align: middle;
+    padding: 15px 45px;
     font-family: 'PT Sans', sans-serif;
     font-size: 18px;
     line-height: 23px;
@@ -123,10 +123,16 @@
     background: #333;
     cursor: pointer;
     border-radius: 5px;
+    outline: none;
+    border: none;
 }
 
 .btn--orange {
     background: linear-gradient(to right, #FF903E, #FF2C2C);
+}
+
+.btn--shadow {
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);;
 }
 
 .btn--block {

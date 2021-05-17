@@ -1,0 +1,62 @@
+.team {
+    padding: 60px 0;
+    background-color: #F9F9F9;
+    &__title {
+        font-weight: 900;
+        font-size: 45px;
+        line-height: 54px;
+        font-family: 'Lato', sans-serif;
+        color: #2C2C2C;
+        font-weight: 900;
+        margin-bottom: 40px;
+        span {
+            color: #004AF2;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -15px;
+    }
+    &__col {
+        width: 33.333%;
+        padding: 0 15px;
+        margin-bottom: 30px;
+    }
+    &__photo {
+        box-shadow: 10px 5px 13px rgba(0,0,0,0.20);
+        margin-bottom: 15px;
+    }
+    &__name {
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 22px;
+        color: #2C2C2C;
+        margin-bottom: 5px;
+    }
+    &__prof {
+        font-size: 15px;
+        line-height: 19px;
+        color: #585858;
+        margin-bottom: 10px;
+    }
+    &__contacts {
+        font-size: 14px;
+        line-height: 18px;
+        color: #585858;
+        :last-child {
+            margin-bottom: 0;
+        }
+        a {
+            color: inherit;
+        }
+        &-icon {
+            width: 16px;
+            margin-right: 9px;
+        }
+    }
+    li {
+        margin-bottom: 9px;
+    }
+}

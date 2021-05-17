@@ -1,16 +1,14 @@
 @import 'libs/bootstrap-reboot.min';
 
-*,
-*::before,
-*::after {
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 ul,ol {
     list-style: none;
 }
+
 
 body {
     font-family: 'PT Sans', sans-serif;
@@ -26,6 +24,25 @@ body {
     padding: 0 15px;
 }
 
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
 @import 'blocks/header';
 @import 'blocks/intro';
 @import 'blocks/services';
+@import 'blocks/clients';
+@import 'blocks/benefits';
+@import 'blocks/team';
+@import 'blocks/mission';
+@import 'blocks/news';
+@import 'blocks/footer';
+
+
