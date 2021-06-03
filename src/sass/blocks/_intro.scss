@@ -2,6 +2,14 @@
     margin-bottom: 20px;
     height: 630px;
     background: url('/img/intro-bg.jpg') center (center/cover) no-repeat;
+    &--blog {
+        height: 350px;
+        background: url('/img/news-intro.jpg') center (center/cover) no-repeat;
+    }
+    &--text {
+        height: 350px;
+        background: url('/img/text-intro.jpg') center (center/cover) no-repeat;
+    }
     &__inner {
         height: 600px;
         display: flex;
@@ -43,9 +51,10 @@
     overflow: hidden;
     &__header {
         padding: 20px 30px;
-        color: #033FC9;
+        background-color: #033FC9;
     }
     &__title {
+        margin-bottom: 5px;
         font-family: 'Lato' sans-serif;
         font-size: 30px;
         font-weight: 900;
@@ -64,6 +73,10 @@
 .request-form--intro {
     position: relative;
     bottom: -50px;
+}
+
+.request-form--right {
+    margin-left: auto;
 }
 
 .form {
@@ -108,6 +121,26 @@
 
 .input--email {
     background: url('/img/mail-icon.svg') left 15px top 5px  no-repeat;
+}
+
+.input--dark {
+    border-bottom-color: #E8E8E8;
+    color: #2c2c2c;
+}
+.input--dark::placeholder {
+    color: #2c2c2c;
+}
+.input--dark:focus {
+    border-bottom-color: #000;
+}
+.input--dark.input--user {
+    background-image: url('/img/team/head.png');
+}
+.input--dark.input--phone {
+    background-image: url('/img/team/call.png');
+}
+.input--dark.input--email {
+    background-image: url('/img/team/mail.png');
 }
 
 .btn {

@@ -1,0 +1,40 @@
+.text {
+    padding: 60px 0;
+    ol {
+        list-style:decimal;
+        list-style-position: inside;
+        margin-bottom: 50px;
+    }
+    ul {
+        list-style: disc;
+        list-style-position: inside;
+    }
+    a {
+        text-decoration: none;
+    }
+    &__title {
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        font-size: 45px;
+        line-height: 54px;
+        color: #2C2C2C;
+        margin-bottom: 50px;
+        span {
+            color: #004AF2;
+        }
+    }
+    &__text {
+        max-width: 890px;
+        font-size: 18px;
+        line-height: 27px;
+        color: #585858; 
+        p {
+            margin-bottom: 20px;
+        }
+    }
+    &__subtitle {
+        color: #2C2C2C;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+}
